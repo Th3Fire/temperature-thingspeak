@@ -18,7 +18,7 @@ cd temperature-thingspeak
 sudo modprobe w1-gpio
 sudo modprobe w1-therm
 ```
-Look some Directory ```bash /sys/bus/w1/devices ``` you'll see directory 28-XXXXXXXXXXX
+Look some Directory ``` /sys/bus/w1/devices ``` you'll see directory 28-XXXXXXXXXXX
 try:
 ```bash
 cat/sys/bus/w1/devices/28-XXXXXXXXXXX/w1_slave
