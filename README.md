@@ -7,9 +7,24 @@ Temperature monitoring with  ThingSpeak
 git clone https://github.com/wuttinunt/temperature-thingspeak.git
 cd temperature-thingspeak
 ```
+## Connect Raspberry Pi with DS18B20
+
+![RasPi](image.png?raw=true "RasPi")
+
+## Install Kernel Module
+```bash
+sudo modprobe w1-gpio
+sudo modprobe w1-therm
+```
+Look some Directory ```bash /sys/bus/w1/devices ``` you'll see directory 28-XXXXXXXXXXX
+try:
+```bash
+cat/sys/bus/w1/devices/28-XXXXXXXXXXX/w1_slave
+```
+you'll see some value it's ready to work
+if you don't see Directory ensure you connect Raspberry Pi with DS18B20 already.
 
 ## Run
-Ensure you connect jumper wire between ```bash Raspberry Pi ``` and ```bash DS18B20 ``` if already let's Run it.
 
 ```bash
 sudo python temperature.py
