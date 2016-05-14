@@ -17,7 +17,7 @@ def main():
         
         #sleep(5)
 
-   	baseURL = 'https://api.thingspeak.com/update?api_key=L4QCVPR5SRHI8W3A'  #api_key=your_api_key
+   	baseURL = 'https://api.thingspeak.com/update?api_key='  #api_key=your_api_key
 	
         try:
             	f = urllib.urlopen(baseURL +
