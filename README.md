@@ -20,8 +20,9 @@ Look at ```#dtoverlay=w1-gpio``` and uncomment ```dtoverlay=w1-gpio```
 
 ![RasPi](image.png?raw=true "RasPi")
 
-## Install Kernel Module
+## Install DS18B20 and Kernel Module
 ```bash
+sudo pip install ds18b20
 sudo modprobe w1-gpio
 sudo modprobe w1-therm
 ```
