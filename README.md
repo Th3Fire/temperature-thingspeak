@@ -43,3 +43,4 @@ sudo python temperature.py
 ## Read data by ThingSpeak
 This is my ThingSpeak account you can register account free from www.thingspeak.com and setting somthing but it easy
 go to websit https://thingspeak.com/channels/113862
+
