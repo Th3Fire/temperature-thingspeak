@@ -10,7 +10,7 @@ git clone https://github.com/wuttinunt/temperature-thingspeak.git
 cd temperature-thingspeak
 ```
 
-## Edit file config ```w1-gpio```
+## Edit config file ```w1-gpio```
 ```bash
 sudo nano /boot/config.txt
 ```
