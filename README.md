@@ -9,6 +9,13 @@ Temperature monitoring with  ThingSpeak
 git clone https://github.com/wuttinunt/temperature-thingspeak.git
 cd temperature-thingspeak
 ```
+
+## Edit file config ```w1-gpio```
+```bash
+sudo nano /boot/config.txt
+```
+Look at ```#dtoverlay=w1-gpio``` and uncomment ```dtoverlay=w1-gpio```
+
 ## Connect Raspberry Pi with DS18B20
 
 ![RasPi](image.png?raw=true "RasPi")
